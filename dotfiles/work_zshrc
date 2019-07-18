@@ -108,6 +108,10 @@ function reload {
     source ~/.zshrc
 }
 
+function vpn() {
+    bash ~/devtools/cli-tools/vpn.sh
+}
+
 function database() {
     bash ~/devtools/cli-tools/database.sh $@
 }
@@ -115,5 +119,6 @@ function database() {
 function geladao_copy_msg() {
     bash ~/devtools/cli-tools/copia_mensagem_geladao.sh
 }
+
 eval $(thefuck --alias)
 
