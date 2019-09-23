@@ -7,3 +7,4 @@ sudo apt update \
 	&& sudo apt-get install docker-ce docker-ce-cli containerd.io -y \
 	&& sudo groupadd docker \
 	&& sudo usermod -aG docker $USER
+	# now you should log out!
