@@ -136,10 +136,6 @@ eval $(thefuck --alias)
 # fuzzy finder on ctrl+t
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
-if [ $TILIX_ID ] || [ $VTE_VERSION ]; then
-        source /etc/profile.d/vte.sh
-fi
-
 # listen to lofi all day :)
 function lofi() {
     google-chrome https://www.youtube.com/watch\?v\=bebuiaSKtU4
@@ -155,3 +151,4 @@ function chpwd() {
 	emulate -L zsh
 	ls -a
 }
+export PATH="$PATH:/opt/mssql-tools/bin"

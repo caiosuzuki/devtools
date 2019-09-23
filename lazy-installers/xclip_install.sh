@@ -1,1 +1,1 @@
-sudo apt instlal xclip -y
+sudo apt install xclip -y
