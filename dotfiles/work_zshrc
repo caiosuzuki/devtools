@@ -118,10 +118,6 @@ function database() {
     bash ~/devtools/cli-tools/database.sh $@
 }
 
-function geladao_copy_msg() {
-    bash ~/devtools/cli-tools/copia_mensagem_geladao.sh
-}
-
 function lazyssh() {
     bash ~/devtools/cli-tools/private_ssh.sh $@
 }
