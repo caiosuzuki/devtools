@@ -103,6 +103,10 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 alias mci="mvn clean install"
+alias sloginx="cd $HOME/projetos/Loginx/src && npm run dev"
+alias sfront="cd $HOME/projetos/CheffEscolar/src/cheffescolar-frontend && npm run gulp start-frontend"
+alias lofi="google-chrome https://www.youtube.com/watch\?v\=bebuiaSKtU4"
+alias pr="google-chrome https://solucoesdigix.visualstudio.com/Projetos/_git/CheffEscolar/pullrequests"
 
 export PATH="$PATH:/opt/mssql-tools/bin"
 
@@ -127,16 +131,6 @@ eval $(thefuck --alias)
 
 # fuzzy finder on ctrl+t
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-
-# listen to lofi all day :)
-function lofi() {
-    google-chrome https://www.youtube.com/watch\?v\=bebuiaSKtU4
-}
-
-# go to the project's pull requests page
-function pr() {
-    google-chrome https://solucoesdigix.visualstudio.com/Projetos/_git/CheffEscolar/pullrequests
-}
 
 # ls as soon as cd
 function chpwd() {
