@@ -103,6 +103,7 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 alias mci="mvn clean install"
+alias fmci="mvn clean install -T 1C"
 alias sloginx="cd $HOME/projetos/Loginx/src && npm run dev"
 alias sfront="cd $HOME/projetos/CheffEscolar/src/cheffescolar-frontend && npm run gulp start-frontend"
 alias lofi="google-chrome https://www.youtube.com/watch\?v\=bebuiaSKtU4"
