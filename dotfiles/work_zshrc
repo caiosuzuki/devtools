@@ -108,6 +108,7 @@ alias sloginx="cd $HOME/projetos/Loginx/src && npm run dev"
 alias sfront="cd $HOME/projetos/CheffEscolar/src/cheffescolar-frontend && npm run gulp start-frontend"
 alias lofi="google-chrome https://www.youtube.com/watch\?v\=bebuiaSKtU4"
 alias pr="google-chrome https://solucoesdigix.visualstudio.com/Projetos/_git/CheffEscolar/pullrequests"
+alias migra="cd $HOME/projetos/CheffEscolar/infra && npx gulp script-migrations"
 
 export PATH="$PATH:/opt/mssql-tools/bin"
 
