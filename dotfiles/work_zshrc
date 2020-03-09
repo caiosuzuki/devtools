@@ -102,6 +102,7 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+alias glom="gl origin master"
 alias mci="mvn clean install"
 alias fmci="mvn clean install -T 1C"
 alias sloginx="cd $HOME/projetos/Loginx/src && npm run dev"
@@ -110,7 +111,7 @@ alias sfront="cd $HOME/projetos/CheffEscolar/src/cheffescolar-frontend && npm ru
 alias lofi="google-chrome https://www.youtube.com/watch\?v\=bebuiaSKtU4"
 alias pr="google-chrome https://solucoesdigix.visualstudio.com/Projetos/_git/CheffEscolar/pullrequests"
 alias migra="cd $HOME/projetos/CheffEscolar/infra && npx gulp script-migrations"
-alias taskboard="google-chrome https://solucoesdigix.visualstudio.com/Projetos/_sprints/taskboard/Bicho%20da%20Goiaba%20-%20Laranja/"
+alias taskboard="google-chrome https://solucoesdigix.visualstudio.com/Projetos/_sprints/taskboard/Bicho%20da%20Goiaba%20-%20Ciano/"
 alias wiki="google-chrome https://solucoesdigix.visualstudio.com/Projetos/_wiki/wikis/Projetos.wiki/2/CheffEscolar"
 alias daily="taskboard && wiki"
 export PATH="$PATH:/opt/mssql-tools/bin"
@@ -129,6 +130,10 @@ function database() {
 
 function lazyssh() {
     bash ~/devtools/cli-tools/private_ssh.sh $@
+}
+
+function hcs {
+    xdg-open https://http.cat/$1
 }
 
 # the fuck: correct your last command through suggestions
