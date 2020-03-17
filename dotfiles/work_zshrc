@@ -111,7 +111,7 @@ alias sfront="cd $HOME/projetos/CheffEscolar/src/cheffescolar-frontend && npm ru
 alias lofi="google-chrome https://www.youtube.com/watch\?v\=bebuiaSKtU4"
 alias pr="google-chrome https://solucoesdigix.visualstudio.com/Projetos/_git/CheffEscolar/pullrequests"
 alias migra="cd $HOME/projetos/CheffEscolar/infra && npx gulp script-migrations"
-alias taskboard="google-chrome https://solucoesdigix.visualstudio.com/Projetos/_sprints/taskboard/Bicho%20da%20Goiaba%20-%20Ciano/"
+alias taskboard="google-chrome https://solucoesdigix.visualstudio.com/Projetos/_sprints/taskboard/Bicho%20da%20Goiaba%20-%20/Projetos/Gestão%20de%20produtos"
 alias wiki="google-chrome https://solucoesdigix.visualstudio.com/Projetos/_wiki/wikis/Projetos.wiki/2/CheffEscolar"
 alias daily="taskboard && wiki"
 export PATH="$PATH:/opt/mssql-tools/bin"
