@@ -1,0 +1,1 @@
+install sql server > sqlcmd > change sa pass > restore database > install docker > npm i (front) > npm run gulp start-services > run applications on intellij
