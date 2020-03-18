@@ -105,6 +105,7 @@ source $ZSH/oh-my-zsh.sh
 alias glom="gl origin master"
 alias mci="mvn clean install"
 alias fmci="mvn clean install -T 1C"
+alias vpn="bash $HOME/devtools/cli-tools/private_vpn.sh"
 alias sloginx="cd $HOME/projetos/Loginx/src && npm run dev"
 alias sdocker="cd $HOME/projetos/CheffEscolar/src/cheffescolar-frontend && npm run gulp start-services"
 alias sfront="cd $HOME/projetos/CheffEscolar/src/cheffescolar-frontend && npm run gulp start-frontend"
