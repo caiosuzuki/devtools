@@ -115,7 +115,10 @@ alias migra="cd $HOME/projetos/CheffEscolar/infra && npx gulp script-migrations"
 alias taskboard="google-chrome https://solucoesdigix.visualstudio.com/Projetos/_sprints/taskboard/Bicho%20da%20Goiaba%20-%20/Projetos/Gestão%20de%20produtos"
 alias wiki="google-chrome https://solucoesdigix.visualstudio.com/Projetos/_wiki/wikis/Projetos.wiki/2/CheffEscolar"
 alias daily="taskboard && wiki"
-alias remote-daily="xdg-open https://solucoesdigix.visualstudio.com/Projetos/_boards/board/t/Bicho%20da%20Goiaba/Stories && xdg-open https://solucoesdigix.visualstudio.com/Projetos/_queries/query/2d4ac0c7-8dca-4426-a723-ee40ac88f6c1/"
+alias meet-daily="xdg-open https://meet.google.com/xmj-bfrd-sqb"
+alias board="xdg-open https://solucoesdigix.visualstudio.com/Projetos/_boards/board/t/Bicho%20da%20Goiaba/Stories" 
+alias remote-daily="board && meet-daily && xdg-open https://solucoesdigix.visualstudio.com/Projetos/_queries/query/2d4ac0c7-8dca-4426-a723-ee40ac88f6c1/ && xdg-open https://solucoesdigix.visualstudio.com/Projetos/_queries/query/b199329c-3093-49d9-a03f-3ac7f4c0d22b/"
+alias gb="echo \"$(git branch)\""
 export PATH="$PATH:/opt/mssql-tools/bin"
 
 function reload {
