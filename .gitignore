@@ -1,3 +1,4 @@
 **/*.bak
 **/private_ssh.sh
 **/private_vpn.sh
+**/private_tem_pr.sh
