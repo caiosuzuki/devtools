@@ -115,8 +115,9 @@ alias migra="cd $HOME/projetos/CheffEscolar/infra && npx gulp script-migrations"
 alias taskboard="xdg-open https://solucoesdigix.visualstudio.com/Projetos/_sprints/taskboard/Bicho%20da%20Goiaba/Projetos/Gest%C3%A3o%20de%20produtos/"
 alias wiki="xdg-open https://solucoesdigix.visualstudio.com/Projetos/_wiki/wikis/Projetos.wiki/2/CheffEscolar"
 alias meet-daily="xdg-open https://meet.google.com/ykv-fuzu-dmj"
-alias board="xdg-open https://solucoesdigix.visualstudio.com/Projetos/_boards/board/t/Bicho%20da%20Goiaba/Stories" 
-alias remote-daily="board && meet-daily && xdg-open https://solucoesdigix.visualstudio.com/Projetos/_queries/query/2d4ac0c7-8dca-4426-a723-ee40ac88f6c1/"
+alias board="xdg-open https://solucoesdigix.visualstudio.com/Projetos/_boards/board/t/Bicho%20da%20Goiaba/Stories"
+alias burndown="xdg-open https://dev.azure.com/solucoesdigix/Projetos/_dashboards/dashboard/817cfa78-cc56-4ea7-8305-f874a4e6c9fb"
+alias remote-daily="board && meet-daily && xdg-open https://solucoesdigix.visualstudio.com/Projetos/_queries/query/2d4ac0c7-8dca-4426-a723-ee40ac88f6c1/" && burndown
 export PATH="$PATH:/opt/mssql-tools/bin"
 
 function reload {
