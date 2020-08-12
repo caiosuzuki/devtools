@@ -114,7 +114,7 @@ alias migra="cd $HOME/projetos/CheffEscolar/infra && npx gulp script-migrations"
 alias taskboard="xdg-open https://solucoesdigix.visualstudio.com/Projetos/_sprints/taskboard/Bicho%20da%20Goiaba/Projetos/Gest%C3%A3o%20de%20produtos/"
 alias meet-daily="xdg-open https://meet.google.com/ykv-fuzu-dmj"
 alias board="xdg-open https://solucoesdigix.visualstudio.com/Projetos/_boards/board/t/Bicho%20da%20Goiaba/Stories"
-alias coleta-metricas="xdg-open https://solucoesdigix.visualstudio.com/Projetos/_queries/query/2d4ac0c7-8dca-4426-a723-ee40ai88f6c1/" 
+alias coleta-metricas="xdg-open https://solucoesdigix.visualstudio.com/Projetos/_queries/query/2d4ac0c7-8dca-4426-a723-ee40ac88f6c1/" 
 alias remote-daily="coleta-metricas && board && taskboard && meet-daily" 
 export PATH="$PATH:/opt/mssql-tools/bin"
 
