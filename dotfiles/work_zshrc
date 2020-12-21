@@ -114,7 +114,7 @@ alias migra="cd $HOME/projetos/CheffEscolar/infra && npx gulp script-migrations"
 alias taskboard="xdg-open https://solucoesdigix.visualstudio.com/Projetos/_sprints/taskboard/Bicho%20da%20Goiaba/Projetos/Gest%C3%A3o%20de%20produtos/"
 alias meet-daily="xdg-open https://meet.google.com/ykv-fuzu-dmj"
 alias board="xdg-open https://solucoesdigix.visualstudio.com/Projetos/_boards/board/t/Bicho%20da%20Goiaba/Stories" 
-alias remote-daily="board && taskboard && meet-daily" 
+alias remote-daily="board && taskboard" 
 alias slackbot="bash $HOME/devtools/cli-tools/private/slack_bot.sh"
 
 export PATH="$PATH:/opt/mssql-tools/bin"
