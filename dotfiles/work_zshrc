@@ -128,7 +128,7 @@ function vpn() {
 }
 
 function database() {
-    bash ~/devtools/cli-tools/database.sh $@
+    bash ~/projetos/CheffEscolar/infra/utils-local/sql-docker-linux.sh
 }
 
 function lazyssh() {
