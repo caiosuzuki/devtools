@@ -148,6 +148,7 @@ function avisoCheff() {
 }
 
 # the fuck: correct your last command through suggestions
+export PATH="$HOME/.local/bin:$PATH"
 eval $(thefuck --alias)
 
 # fuzzy finder on ctrl+t
@@ -177,7 +178,3 @@ else
 fi
 unset __conda_setup
 # <<< conda initialize <<<
-
-#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
-export SDKMAN_DIR="/home/caio/.sdkman"
-[[ -s "/home/caio/.sdkman/bin/sdkman-init.sh" ]] && source "/home/caio/.sdkman/bin/sdkman-init.sh"
